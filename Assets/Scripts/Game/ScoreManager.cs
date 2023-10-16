@@ -81,6 +81,8 @@ public class ScoreManager : MonoBehaviour
 
         if (!IsScoreIncreaseByPattern && !IsScoreIncreaseByItem)
             CurrentScore += score;
+
+
         UIManager.Instance.UpdateScoreUI(CurrentScore);
     }
 }
